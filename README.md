@@ -105,7 +105,23 @@ We performed a **two-sample Z-test for proportions** to compare the conversion r
 
 We used a **Minimum Detectable Effect (MDE)** of **2%** to assess if the difference matters in practice.  
 - The entire CI lies far below ±2%.  
-- This shows the observed difference is not practically meaningful.  
+- This shows the observed difference is not practically meaningful.
+
+### 4. Z-test Interpretation  
+
+<img width="577" height="454" alt="Gaussian" src="https://github.com/user-attachments/assets/31cb7e04-589f-4ae4-bc51-05ff2257c327" />
+
+
+- **Standard Error (SE):** 0.0012  
+  - Shows the expected variation in the difference of conversion rates.  
+- **Test Statistic (Z):** 1.295  
+  - The observed difference is 1.295 standard errors away from 0.  
+- **Z-critical (±1.96):**  
+  - Threshold for a 95% confidence level.  
+
+**Conclusion:**  
+Since 1.295 < 1.96, the test statistic does not fall in the rejection region.  
+We fail to reject the null hypothesis: there is no statistically significant difference.
 
 ---
 
